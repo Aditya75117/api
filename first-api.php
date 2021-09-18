@@ -5,7 +5,7 @@
 
     //extract($_POST);
 
-    if(isset($_POST['name'])){
+    if($_POST['name']){
             $return_arr = "this is php api";
             echo json_encode($return_arr);
        
